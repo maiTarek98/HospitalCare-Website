@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <title> Hospital - signup Page </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Amir Nageh">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/faveicon.png">
+
+    <!-- Css Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/wfmi-style.css" rel="stylesheet" type="text/css">
+    <link href="css/material-design-iconic-font.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/select2.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <img src="images/h.gif">
+    </div>
+    <!-- End Page Loader -->
+
+    <div class="main-wrapper">
+        <header class="main-head col-xs-12">
+            <div class="top-header col-xs-12">
+                <div class="container">
+                    <div class="header-contact">
+                        <ul>
+                            <li>
+
+                                <a href="#">
+                                    <i class="zmdi zmdi-account-add"></i> login / signup
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="callto:01024517052">
+                                    <i class="zmdi zmdi-phone-in-talk"></i> 010-245-17052
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="mailto:support@hospital.com">
+                                    <i class="zmdi zmdi-email"></i> support@hospital.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="zmdi zmdi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="zmdi zmdi-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="zmdi zmdi-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="zmdi zmdi-skype"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end top-header -->
+            <div class="header-content inner-header logged-user col-xs-12">
+                <div class="container">
+                    <div class="logo">
+                        <h1>
+                            <a href="index.html">hos<span>pital</span></a>
+                        </h1>
+                    </div>
+                    <div class="h-navigation">
+                        <ul class="main-nav">
+                            <li>
+                                <a href="index.html">home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">about us</a>
+                            </li>
+                            <li>
+                                <a href="services.html">services</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">gallery</a>
+                            </li>
+                            <li>
+                                <a href="team.html"  class="active">our team</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">contact us</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="toggle-menu-button">
+                            <i class="toggle-menu-button-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </i>
+                        </button>
+                        <div class="main-search">
+                            <a href="javascript:void(0)" class="open-search">
+                                <i class="zmdi zmdi-search"></i>
+                            </a>
+                            <div class="dropdown">
+                                <a data-toggle="dropdown" class="dropy">
+                                    <div class="usr-img">
+                                        <img src="images/doctor1.jpg" alt="">
+                                    </div>
+                                    <div class="usr-data">
+                                        <span>amir nageh</span>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="profile.html">profile</a></li>
+                                    <li>
+                                        <a href="setting.html">settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html">logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="public-jumptron col-xs-12">
+            <div class="container">
+                <div class="jump-inner col-xs-12">
+                    <h2>settings</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">settings</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="register-box col-xs-12">
+            <div class="container">
+                <div class="register-inner">
+                    <h3>profile setting form</h3>
+                    <form action="#" method="get">
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="fullname">full-name</label>
+                            <input type="text" id="fullname" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="birth">birth date</label>
+                            <input type="date" id="birth" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="email">email address</label>
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="pass">password</label>
+                            <input type="password" id="pass" class="form-control">
+                        </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="bio">bio</label>
+                            <textarea class="form-control" id="bio"></textarea>
+                        </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="educ">education</label>
+                            <textarea class="form-control" id="educ"></textarea>
+                        </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="no_ph">NO.phone</label>
+                            <input type="text" id="no_ph" class="form-control">
+                        </div><div class="form-group col-md-12 col-xs-12">
+                                <input type="text" placeholder="www.facebook.com/userID" class="form-control social-links">
+                                <i class="zmdi zmdi-facebook"></i>
+                            </div>
+                            <div class="form-group col-md-12 col-xs-12">
+                                <input type="text" placeholder="www.twitter.com/userID" class="form-control social-links">
+                                <i class="zmdi zmdi-twitter"></i>
+                            </div>
+                            <div class="form-group col-md-12 col-xs-12">
+                                <input type="text" placeholder="www.linkedin.com/userID" class="form-control social-links">
+                                <i class="zmdi zmdi-linkedin"></i>
+                            </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <label for="full_address">address</label>
+                            <textarea class="form-control" id="full_address"></textarea>
+                        </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <input type="submit" value="save" class="btn">
+                            <input type="reset" value="cancel" class="btn btn-cancel">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter col-xs-12">
+            <div class="container">
+                <div class="news-inner">
+                    <i class="zmdi zmdi-calendar-note"></i>
+                    <div class="news-data">
+                        <p>do you want to visit our hospital ?</p>
+                        <h4>make an free appointment !</h4>
+                    </div>
+                    <div class="news-link">
+                        <a href="#" data-target="#appoint-modal" data-toggle="modal">make an appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="main-footer col-xs-12">
+            <div class="container">
+                <div class="footer-body col-xs-12">
+                    <div class="block col-md-5 col-xs-12">
+                        <div class="inner">
+                            <h3>about us</h3>
+                            <p class="desc">Dynamically Initiate Collaborative Alignments And Viral Web ServicesDynamically Initiate Collaborative Alignments And Viral Web Services</p>
+                            <p class="desc">Dynamically Initiate Collaborative Alignments And Viral Web ServicesDynamically Initiate Collaborative Alignments And Viral Web ServicesInitiate Collaborative Alignments And Viral Web Services</p>
+                            <div class="f-social">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="zmdi zmdi-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="zmdi zmdi-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="zmdi zmdi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="zmdi zmdi-skype"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block col-md-2 col-sm-6 col-xs-6">
+                        <div class="inner">
+                            <h3>useful links</h3>
+                            <ul class="maping">
+                                <li>
+                                    <a href="#">appointments</a>
+                                </li>
+                                <li>
+                                    <a href="#">contact us</a>
+                                </li>
+                                <li>
+                                    <a href="#">support forums</a>
+                                </li>
+                                <li>
+                                    <a href="#">login with account</a>
+                                </li>
+                                <li>
+                                    <a href="#">register an account</a>
+                                </li>
+                                <li>
+                                    <a href="#">help center</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block col-md-2 col-sm-6 col-xs-6">
+                        <div class="inner">
+                            <h3>our services</h3>
+                            <ul class="maping">
+                                <li>
+                                    <a href="#">dental</a>
+                                </li>
+                                <li>
+                                    <a href="#">laboratory test</a>
+                                </li>
+                                <li>
+                                    <a href="#">general analysis</a>
+                                </li>
+                                <li>
+                                    <a href="#">traumatolgy</a>
+                                </li>
+                                <li>
+                                    <a href="#">prostheses</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block col-md-3 col-xs-12">
+                        <div class="inner">
+                            <h3>contact us</h3>
+                            <ul class="addressing">
+                                <li>
+                                    <div class="inner-icon">
+                                        <i class="zmdi zmdi-pin"></i>
+                                    </div>
+                                    <div class="inner-data">
+                                        <p>
+                                            <span>11 old mosque st, elmahala elkubra , egypt</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inner-icon">
+                                        <i class="zmdi zmdi-phone-in-talk"></i>
+                                    </div>
+                                    <div class="inner-data">
+                                        <p>
+                                            <span>+010 245 170 52</span>
+                                            <span>+010 279 288 12</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inner-icon">
+                                        <i class="zmdi zmdi-email"></i>
+                                    </div>
+                                    <div class="inner-data">
+                                        <p>
+                                            <span><a href="mailto:support@hospital.com">info@hospital.com</a></span>
+                                            <span><a href="mailto:support@hospital.com">support@hospital.com</a></span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inner-icon">
+                                        <i class="zmdi zmdi-link"></i>
+                                    </div>
+                                    <div class="inner-data">
+                                        <p>
+                                            <span><a href="#" target="_blank">www.hospital.com</a></span>
+                                            <span><a href="#" target="_blank">FB/hospital</a></span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-rights col-xs-12">
+                <div class="container">
+<p>&copy; hospital. copyrights 2019</p>                </div>
+            </div>
+        </footer>
+        <div class="search-flood">
+            <div class="container">
+                <div class="form-inner">
+                    <div class="form-close">
+                        <button class="close-flood">
+                            <i class="zmdi zmdi-close"></i>
+                        </button>
+                    </div>
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <input type="search" class="form-control" placeholder="search here...">
+                            <input type="submit" value="search" class="btn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="appoint-modal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content col-xs-12">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">APPOINTMENT FORM</h4>
+                    </div>
+                    <div class="modal-body col-xs-12">
+                        <form action="#" method="get">
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="fname">first name</label>
+                                <input type="text" id="fname" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="lname">last name</label>
+                                <input type="text" id="lname" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="emailm">email address</label>
+                                <input type="email" id="emailm" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="phnum">phone number</label>
+                                <input type="text" id="phnum" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="gender">your gender</label>
+                                <select class="form-control" id="gender">
+                                    <option disabled selected>gender</option>
+                                    <option>male</option>
+                                    <option>female</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="services">your services</label>
+                                <select class="form-control" id="services">
+                                    <option disabled selected>choose services</option>
+                                    <option>surgey</option>
+                                    <option>clicnic</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="date">date</label>
+                                <input type="date" id="date" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="time">time</label>
+                                <input type="time" id="time" class="form-control">
+                            </div>
+                            
+                            <div class="form-group col-md-12 col-xs-12">
+                                <label for="msg">your message</label>
+                                <textarea class="form-control" id="msg"></textarea>
+                            </div>
+                            <div class="form-group col-md-12 col-xs-12">
+                                <input type="submit" value="make an appointment" class="btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main-wrapper -->
+
+    <div class="toTop col-xs-12 text-center">
+        <i class="zmdi zmdi-chevron-up"></i>
+    </div>
+    <!-- /.toTop -->
+
+
+    <!-- Javascript Files -->
+    <script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-smoothscroll.js" type="text/javascript"></script>
+    <script src="js/modernizr.min.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
